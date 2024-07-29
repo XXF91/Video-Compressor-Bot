@@ -6,12 +6,6 @@ from pyrogram import filters
 import pyrogram
 
 
-# setup
-bot_token = os.environ.get("TOKEN", "7397532645:AAH7R46hDIQ95j9-5kyVgySCa-A6cHQy6vE") 
-api_hash = os.environ.get("HASH", "ea9db4503ed7088b788e06dfd818e00e") 
-api_id = os.environ.get("ID", "13384432") 
-app = Client("my_bot",api_id=api_id, api_hash=api_hash,bot_token=bot_token)
-os.system("chmod 777 ./ffmpeg/ffmpeg")
 
 
 # start command
